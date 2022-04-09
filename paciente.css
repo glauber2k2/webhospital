@@ -1,0 +1,103 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+
+    background-image: url("imagens/info2.jpg");
+    background-size: 100%;
+    color: white;
+
+}
+
+input{
+
+    display: block;
+    height: 55px;
+    width: 400px;
+    margin: 10px;
+    border: 1px solid black;
+    font-size: 16pt;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.80);
+    outline: none;
+  
+}
+
+div#busca{
+    position: fixed; top: 700px; left: 405px;
+}
+
+div#busca input{
+    display: block;
+    height: 35px;
+    width: 400px;
+    border: 1px solid black;
+    margin: 2px;
+    font-size: 16pt;
+    text-align: center;
+    outline: none;
+    padding: 10px;
+}
+
+div#busca input[value=buscar]{
+    color: white;
+    display: block;
+    height: 50px;
+    width: 400px;
+    border: 1px solid black;
+    font-size: 10pt;
+    text-align: center;
+    background-color: rgba(0, 162, 255, 0.507);
+    outline: none;
+    padding: 0px;
+}
+
+div#corpo{
+
+    width: 420px;
+    margin: 200px auto 0px 400px;
+}
+
+div#corpo h1{
+
+    text-align: center;
+    padding: 20px;
+
+}
+
+input[type=submit]{
+
+    background-color:	#55b5dbd2;
+    color: white;
+    cursor: pointer;
+    font-family: monospace;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    font-family: monospace;
+    padding-top: 50px;
+    font-size: 20pt;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+div#busca input[value=sair]{
+    text-align: center;
+    height: 30px;
+    width: 400px;
+    font-size: 10pt;
+    background-color: red;
+
+}
+
+input[value=enviar]:hover{
+    background-color: seagreen;
+}

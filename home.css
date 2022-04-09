@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+
+    background-image: url("imagens/fundo9.jpg");
+    background-size: 100%;
+    color: white;
+    font-family: monospace;
+}
+
+input{
+    
+    color: white;
+    display: block;
+    height: 55px;
+    width: 400px;
+    margin: 10px;
+    border-radius: 30px;
+    border: 1px solid black;
+    font-size: 16pt;
+    text-align: center;
+    background-color: rgba(0, 204, 255, 0.411);
+    outline: none;
+  
+}
+
+::placeholder{
+    color: white;
+}
+
+input[type=submit]{
+
+    background-color:	#708090a4;
+    color: white;
+    cursor: pointer;
+    font-family: monospace;
+}
+
+div#corpo{
+    width: 420px;
+    margin: 200px auto 0px auto;
+}
+
+div#corpo h1{
+    color: rgb(0, 247, 255);
+    text-align: center;
+    padding: 20px;
+
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+div#corpo h2{
+
+    text-align: center;
+    padding: 20px;
+    color: red;
+
+}
+
+
+p[id=creditos]{
+    position: fixed; bottom: 10px; right: 10px;
+}
+   
+input:hover[type=submit]{
+    background-color: rgba(0, 255, 0, 0.418);
+}
